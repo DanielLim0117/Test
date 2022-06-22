@@ -1,0 +1,30 @@
+nav {
+    text-align:right;
+    padding: 10px;
+    
+}
+
+nav a:hover{
+    color:white;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  body{
+      background-color:RGB(146, 168, 209);
+      
+  }
+
+  #logo{
+    float:left;
+    padding: 10px;
+  }
+
+  footer{
+    text-align: center;
+  }

@@ -1,0 +1,62 @@
+.open {
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+  }
+  
+  .active, .open:hover {
+    background-color:black;
+  }
+  
+  .open:after {
+    content: '\02C3';
+    color: white;
+    font-weight: bold;
+    float: right;
+  }
+  
+  .active:after {
+    content: "\02C5";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+  .columns {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  #summary{
+    background-color: RGB(195, 68, 122);
+  }
+
+  #education{
+    background-color: RGB(255, 111, 97);
+  }
+
+  #skills{
+    background-color:RGB(107, 91, 149);
+  }
+
+  #languages{
+    background-color: RGB(247, 202, 201);
+  }
+
+  li{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 20px;
+  }

@@ -1,0 +1,50 @@
+.align{
+    margin: auto;
+    width: 40%;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    background-color: RGB(152, 180, 212);
+}
+
+button{
+    float:right;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+   
+    
+}
+.col {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    
+    
+}
+label {
+    display: block;
+    padding-left: 2px;
+}
+
+.message {
+    height:150px;   
+    
+  }
+
+#submit{
+    border-radius: 3px;
+    background-color: RGB(221, 65, 36);
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+    width:30%;
+   
+}
+
+#TextMiddle{
+    text-align: center;
+}
+
